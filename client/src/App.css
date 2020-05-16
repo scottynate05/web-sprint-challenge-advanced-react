@@ -5,6 +5,15 @@ body {
     sans-serif;
 }
 
+.light-mode {
+  background-color: #ffe2d5;
+  color: #f0fffe;
+}
+
+.light-mode h1 {
+  color: #0e101c;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;

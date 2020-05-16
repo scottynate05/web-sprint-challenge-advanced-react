@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-
+import LightMode from './components/LightMode'
 import PlantList from "./components/PlantList";
 import ShoppingCart from "./components/ShoppingCart";
 import CheckoutForm from "./components/CheckoutForm";
@@ -28,6 +28,7 @@ function App() {
           <h1>
             React Plants <span role="img">🌿</span>
           </h1>
+          <LightMode />
           <ul className="steps">
             <li>
               <NavLink exact to="/">
