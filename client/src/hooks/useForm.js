@@ -21,7 +21,12 @@ const useForm = () => {
     const handleSubmit = (e) => {
       e.preventDefault();
       setShowSuccessMessage(true);
+    //   clearForm();
     };
+
+    // const clearForm = () => {
+    //     setValues(initialValue);
+    //   };
 
     return [showSuccessMessage, values, handleChanges, handleSubmit];
 };
